@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(./bg.jpg);
+  color: white;
+
+  /* https://www.css-gradient.com/ */
+
+
+  margin-top: 2rem;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1{
+  font-size: 90px;
+  letter-spacing: 5px;
+  font-family: "Caveat", cursive;
+}
+
+.todo-app {
+  width: 500px;
+
+  background: rgba(255, 255, 255, 0.019);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 5px 3px rgba(0, 0, 0, 0.212);
+}
+.todo-app h2 {
+  font-size: 2.2rem;
+  color: #002765;
+  text-align: center;
+}
+.todo-app img {
+  padding-left: 1rem;
+  height: 2rem;
+  width: 2rem;
+  background-size: 100%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin: 30px 0;
+  width: 95%;
+  margin-inline: auto;
+}
+input {
+  color: white;
+  font-size: 17px;
+
+  width: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  border-bottom: 1px solid white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.559);
+}
+
+input:focus{
+  width: 100px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  background: purple;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #ff00ff;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+ul li {
+  font-weight: 700;
+  list-style: none;
+  font-size: 15px;
+
+  padding: 10px 30px;
+  user-select: none;
+  width: 80%;
+  min-height: 50px;
+  margin: 0 auto;
+  border-radius: 5rem;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  display: flex;
+  align-items: center;
+  transition: .2s ease-in-out;
+}
+ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+ul li.checked {
+  color: #ff00ff;
+  text-decoration: line-through;
+}
+
+ul li span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  color: #ff00ff;
+  line-height: 40px;
+  text-align: center;
+
+  transition: 0.1s ease-in-out;
+}
+ul li span:hover {
+  border-radius: 30px;
+  background: purple;
+  color: white;
+}
+
+ul li i{
+  pointer-events: none;
+}
+
+
+@media only screen and (max-width: 550px){
+
+  body{
+    margin-top: 5rem;
+  }
+  .todo-app{
+    width: 90%;
+  }
+  h1{
+    font-size: 15vw;
+  }
+
+  ul li{
+    width: 90%;
+  }
+}
