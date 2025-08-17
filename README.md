@@ -39,7 +39,7 @@ To-Do-List/
 
 
 3. Open index.html in your browser.  <br>
-🎯 Future Enhancements
+##🎯 Future Enhancements
 
 🌐 Add backend with database (Node.js + MongoDB)
 
@@ -48,3 +48,15 @@ To-Do-List/
 🎨 Add themes / dark mode
 
 📅 Task deadlines & reminders
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+##📜 License
+
+This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
+##👤 Author
+
+Mohammed Shoaib
+📧 shoaibpasha.dev@gmail.com
+🌐 GitHub | LinkedIn
