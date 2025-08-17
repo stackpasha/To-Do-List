@@ -1,3 +1,5 @@
+## <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/09474e1b-a795-4a10-874a-4e99a90703ae" />
+
 # 📝 To-Do List App
 
 A simple and efficient **To-Do List Application** built to help users manage their daily tasks effectively.  
@@ -39,7 +41,7 @@ To-Do-List/
 
 
 3. Open index.html in your browser.  <br>
-##🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 🌐 Add backend with database (Node.js + MongoDB)
 
@@ -52,11 +54,14 @@ To-Do-List/
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
-##👤 Author
+## 👤 Author
+**Mohammed Shoaib**  
+📧 [shoaibpasha.dev@gmail.com](mailto:shoaibpasha.dev@gmail.com)  
 
-Mohammed Shoaib
-📧 shoaibpasha.dev@gmail.com
-🌐 GitHub | LinkedIn
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/its-shub1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoaibpasha)
+
+
